@@ -15,4 +15,8 @@ public class Draw_Cards : MonoBehaviour
         
     }
 
+    public void OnClick()
+    {
+        GameObject playerCard = Instantiate(card1, new Vector3(0,0,0), Quaternion.identity); //on click set new object to create new version of card1 (Quaternion is used to declare No Rotation)
+    }
 }
