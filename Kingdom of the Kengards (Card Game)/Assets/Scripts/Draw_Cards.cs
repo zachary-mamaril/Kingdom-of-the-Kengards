@@ -7,6 +7,7 @@ public class Draw_Cards : MonoBehaviour
     //Create public objects to use in the Inspector
     public GameObject card1;
     public GameObject card2;
+    public GameObject card3;
     public GameObject playerArea;
     public GameObject enemyArea;
 
@@ -16,6 +17,7 @@ public class Draw_Cards : MonoBehaviour
     {
         cards.Add(card1);
         cards.Add(card2);
+        cards.Add(card3);
     }
 
     public void OnClick()
